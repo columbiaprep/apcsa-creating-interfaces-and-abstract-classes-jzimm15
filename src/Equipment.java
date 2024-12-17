@@ -1,9 +1,9 @@
-public class Equipment extends Item{
-    private String typeOfEquipment;
+public abstract class Equipment extends Item {
+    public void equip() {
 
-    public Equipment(String typeOfEquipment) {
-        super();
-        this.typeOfEquipment = typeOfEquipment;
     }
 
+    public void unequip() {
+
+    }
 }

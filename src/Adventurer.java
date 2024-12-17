@@ -37,5 +37,9 @@ public class Adventurer extends Entity {
     public String toString() {
         return "🎾";
     }
+
+    public void move() {
+
+    }
 }
 
